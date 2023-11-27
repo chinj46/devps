@@ -33,7 +33,7 @@ function calculate() {
         alert("Error!");
         break;
     }
-    resultElm.textContent = "Result: " + result;
+    resultElm.textContent = "Resultu: " + result;
     resultElm.style.color = "black";
   } catch (error) {
     resultElm.textContent = "Error: " + error.message;
